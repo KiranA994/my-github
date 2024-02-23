@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+.logo a svg{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.heading{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size:14px;
+}
+
+.form-conatiner{
+    background-color: #F6F8FA;
+    width: 22%;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.form-group{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.form-group a{
+    float: right;
+    padding-right: 26px;
+}
+
+
+input{
+    margin-top: 10px;
+    padding: 8px 135px 8px 5px;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 1px solid lightblue;
+    box-shadow: 0 0 5px lightblue;
+    outline: none;
+}
+
+label{
+    display: block;
+}
+
+.sign-in{
+   margin-top: 20px;
+   margin-left: 10px;
+}
+
+button{
+    background-color: green;
+    padding: 8px 130px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22%;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-top: 20px;
+}
+
+.sub-container a{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sub-container span{
+    padding-top: 10px;
+    padding-left: 60px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.github-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.footer-links{
+  padding-right: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
